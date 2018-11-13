@@ -1,0 +1,86 @@
+V "GNAT Lib v2018"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U distribbonbons%b	bonbon.adb		3a05d589 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W bibliothequebonbons%s	bibliothequebonbons.adb	bibliothequebonbons.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-charac.ads		20180524051735 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051735 66457d31 ada.characters.latin_1%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-inteio.ads		20180524051736 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-string.ads		20180524051735 90ac6797 ada.strings%s
+D a-strfix.ads		20180524051736 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20180524051735 e8bb714a ada.strings.maps%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-tiinio.ads		20180524051734 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D bibliothequebonbons.ads  20180924115016 5b5b87a8 bibliothequebonbons%s
+D bonbon.adb		20180924125201 5fd83b26 distribbonbons%b
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-conca3.ads		20180524051736 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051734 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r23 2r6 2r31 3r6 3r23 4r6 4r29 16r10 16r51
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 16|2w10 2r35
+X 8 a-string.ads
+16K13*Strings 35e16 16|3w10 3r27 4r10 4r33 16r14 16r55
+33n24*Left{33E9} 16|16r63
+X 9 a-strfix.ads
+18K21*Fixed 251e22 16|4w18 4r41 16r22
+195V13*Trim{string} 16|16s28
+X 12 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 1r27
+166U14*New_Line 16|35s5 38s3
+242U14*Put 16|20s3 22s3
+263U14*Put_Line 16|39s3
+X 13 a-tiinio.ads
+56U14*Get 16|21s3[5|18] 23s3[5|18]
+X 15 bibliothequebonbons.ads
+2K9*bibliothequeBonbons 9e24 16|5w6 5r31
+4U19*distribuerUnBonbonALEnfant 16|33s5
+7U19*passerALEnfantSuivant 16|25s3 34s5
+X 16 bonbon.adb
+6U11*DistribBonbons 6b11 40l5 40t19
+8i1 nbEnfants{integer} 23m7 26r35 27r26
+9i1 nbBonbons{integer} 21m7 26r23 39r36
+10i1 compteurBonbon{integer} 24m3
+11i1 compteurEnfant{integer} 24m24 27r9 36m5 36r23
+12i1 bonbonsParEnfant{integer} 26m3
+14V10 To_String{string} 14b10 14>20 17l5 17t14 39s26
+14i20 I{integer} 16r47
+
